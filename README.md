@@ -9,11 +9,11 @@ Some of the tools that I'm using so far in this repository:
   - Scipy
   - Scikit-Learn
   - Matplotlib
+  - XGBoost
 
 I also hope to add in examples using other tools such as:
   - Keras
   - PySpark
-  - XGBoost
   - Seaborn
 
 Current notebooks:
@@ -21,6 +21,7 @@ Current notebooks:
 Basics:
 
   - Analyzing the UCI ML breast cancer data. Some topics covered: Logistic regression, PCA, RFE, L1 regularization, learning curves, validation curves, imbalanced data, train/test splitting, pipelines, ROC curves, Precision-Recall curves.
+  - Analyzing the UCI ML adult/census income data. Some topics covered: Label encoding, grid search and randomized search CV, decision trees, random forests, AdaBoost, XGBoost.
 
 NYC Tree Census Data:
 
