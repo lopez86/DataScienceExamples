@@ -10,10 +10,13 @@ Some of the tools that I'm using so far in this repository:
   - Scikit-Learn
   - Matplotlib
   - XGBoost
+  - NLTK
+  - Gensim
+  - PySpark
 
 I also hope to add in examples using other tools such as:
   - Keras
-  - PySpark
+  - TensorFlow/Theano
   - Seaborn
 
 Current notebooks:
@@ -22,6 +25,8 @@ Basics:
 
   - Analyzing the UCI ML breast cancer data. Some topics covered: Logistic regression, PCA, RFE, L1 regularization, learning curves, validation curves, imbalanced data, train/test splitting, pipelines, ROC curves, Precision-Recall curves.
   - Analyzing the UCI ML adult/census income data. Some topics covered: Label encoding, grid search and randomized search CV, decision trees, random forests, AdaBoost, XGBoost.
+  - Analyzing some out-of-copyright text in order to predict the author. Some things covered here: Basic text preparation, stop words, stemming/lemmatization, LSA, LDA, random forests, Naive Bayes classification, NLTK, GenSim.
+  - Basic introduction to PySpark. Some basic text manipulations using the text of Moby Dick. Topics covered: map(), flatMap(), filter(), reduce(), reduceByKey(), sortBy(), sortByKey(), SparkContext, reading text into an RDD.
 
 NYC Tree Census Data:
 
