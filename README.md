@@ -27,8 +27,11 @@ Basics:
   - Analyzing the UCI ML adult/census income data. Some topics covered: Label encoding, grid search and randomized search CV, decision trees, random forests, AdaBoost, XGBoost.
   - Analyzing some out-of-copyright text in order to predict the author. Some things covered here: Basic text preparation, stop words, stemming/lemmatization, LSA, LDA, random forests, Naive Bayes classification, NLTK, GenSim.
   - Basic introduction to PySpark. Some basic text manipulations using the text of Moby Dick. Topics covered: map(), flatMap(), filter(), reduce(), reduceByKey(), sortBy(), sortByKey(), SparkContext, reading text into an RDD.
+  - Movie recommendations with Spark. Topics covered: Alternating least squares, DataFrames, cross validation, model evaluation, parameter grid search.
+  - Analyzing racial demographics and neighborhood income in New York City. Topics covered: Spark SQL, reading from a database, Linear regression and K-Means in Spark.
 
 NYC Tree Census Data:
 
   - Looking at how species of trees are spread throughout the city. Some topics covered: Linear regression, visualization, joining different data sets, feature engineering
   - Looking at the distributions of trees in different neighborhoods. Some topics covered: Linear regression, nonlinear regression, k-fold cross validation, error estimation, minimization/optimization.
+  - Two analyses: (1) Predicting borough based on tree data. (2) Predicting income based on neighborhood trees. Some topics covered: Naive Bayes classifiers, count vectorization, decision tree regression, SVD.
